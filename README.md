@@ -4,7 +4,22 @@
 [![CI](https://github.com/ilyasovas/badwers-notify/actions/workflows/ci.yml/badge.svg)](https://github.com/ilyasovas/badwers-notify/actions/workflows/ci.yml)
 [![Bundle size](https://img.shields.io/bundlephobia/minzip/badwers-notify)](https://bundlephobia.com/package/badwers-notify)
 
-A lightweight, zero-dependency JavaScript notification library. ~3.6 kB gzip.
+A lightweight, zero-dependency JavaScript/TypeScript notification library with full a11y support, dark theme, and 6 positions. ~3.6 kB gzip.
+
+## Project Documentation
+
+This project was built using a structured planning pipeline. All artifacts are in `_bmad-output/`:
+
+| Document | Description |
+|----------|-------------|
+| [PRD](_bmad-output/planning-artifacts/prds/prd-task-2026-06-11/prd.md) | Product requirements, 11 functional requirements, API contracts |
+| [Architecture](_bmad-output/planning-artifacts/architecture.md) | Singleton pattern, CSS strategy, module boundaries, CI/CD decisions |
+| [UX Design](_bmad-output/planning-artifacts/ux-designs/ux-task-2026-06-11/DESIGN.md) | Visual identity, color tokens, component anatomy |
+| [UX Experience](_bmad-output/planning-artifacts/ux-designs/ux-task-2026-06-11/EXPERIENCE.md) | Interaction patterns, state machines, a11y floor, 6 key flows |
+| [UX Review (Rubric)](_bmad-output/planning-artifacts/ux-designs/ux-task-2026-06-11/review-rubric.md) | Rubric-based design review |
+| [UX Review (a11y)](_bmad-output/planning-artifacts/ux-designs/ux-task-2026-06-11/review-accessibility.md) | Accessibility audit results |
+| [Epics & Stories](_bmad-output/planning-artifacts/epics.md) | 3 epics, 13 user stories covering all requirements |
+| [Sprint Status](_bmad-output/implementation-artifacts/sprint-status.yaml) | Current sprint tracking, all 13 stories done |
 
 ## Install
 
