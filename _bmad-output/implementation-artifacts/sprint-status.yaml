@@ -1,0 +1,38 @@
+sprint:
+  name: "Sprint 1"
+  status: "active"
+  start_date: "2026-06-11"
+  end_date: ""
+
+epics:
+  epic-1:
+    title: "Scaffold проекта"
+    status: "done"
+  epic-2:
+    title: "Ядро библиотеки"
+    status: "done"
+  epic-3:
+    title: "Демо-страница и публикация"
+    status: "done"
+
+development_status:
+  "1-1-init": "done"
+  "1-2-tooling": "done"
+  "1-3-ci-cd": "done"
+  "2-1-types-config": "done"
+  "2-2-dom-css": "done"
+  "2-3-stack": "done"
+  "2-4-notify-card": "done"
+  "2-5-animation-timer": "done"
+  "2-6-api-singleton": "done"
+  "2-7-theme-icons": "done"
+  "2-8-accessibility": "done"
+  "3-1-demo-page": "done"
+  "3-2-readme-publish": "done"
+
+status_definitions:
+  backlog: "Story identified but not yet created as a file"
+  ready-for-dev: "Story file created and ready for development"
+  in-progress: "Story is currently being implemented"
+  review: "Implementation complete, awaiting code review"
+  done: "Story fully completed and reviewed"
